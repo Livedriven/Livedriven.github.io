@@ -1,0 +1,32 @@
+:root{
+    --bg-navbar: #155c98;
+    --bg-navbar-link: #ffff4e;
+}
+
+.navbar{
+    background-color: var(--bg-navbar);
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    height: 4em;
+    font-size: 1.2em;
+}
+.navbar__list{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar__link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.3rem;
+    background-color:var(--bg-navbar-link);
+    color: #747873;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.4s ease-out;
+
+}

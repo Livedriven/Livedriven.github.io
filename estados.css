@@ -1,0 +1,12 @@
+.navbar h1::after{
+    content: "😉";
+}
+
+.flores__titulo{
+    padding: 20px; 
+}
+
+.navbar__link:hover{
+    background-color: #056826;
+    color: #0ffff8;
+}
