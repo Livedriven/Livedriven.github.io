@@ -1,0 +1,27 @@
+@media (max-width: 768px){
+   .navbar__list{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color:#252023;
+   } 
+
+   .navbar{
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .menu-toggle{
+    display: block;
+   }
+   
+   .navbar__list.active{
+    display: flex;
+   }
+} 
+
+@media(max-width){
+   .flores{
+      grid-template-columns: repeat(auto-fit, minmax(150px 1fr));
+      padding: 10px;
+   }
+}
